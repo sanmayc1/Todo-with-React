@@ -1,0 +1,65 @@
+.todo-lists{
+    background-color: #2c2c2c;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    
+
+}
+
+.todo-item {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: #3c3c3c;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.complete-Task{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: #496f4f;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.delete{
+    color: rgb(171, 25, 25);
+    cursor: pointer;
+    margin-left: 10px;
+    
+}
+.complete{
+    color: rgb(61, 203, 61);
+    cursor: pointer;
+    
+}
+.taskHead{
+
+    display: flex;
+    justify-content: center;
+
+}
+.listhead{
+
+    margin: 0;
+    margin-bottom: 10%;
+
+}
+.edit-Input{
+    border: none;
+    background-color: #3c3c3c;
+    color: #ffffff;
+    padding: 5px 5px ;
+    font-size: 16px;
+}
